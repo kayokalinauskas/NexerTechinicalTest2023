@@ -39,7 +39,7 @@
                     return new Car();
                 case "moto":
                     return new Motorcycle();
-                case "caminhao":
+                case "caminhão":
                     return new Truck();
                 default:
                     return new Car();
