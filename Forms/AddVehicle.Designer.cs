@@ -42,6 +42,8 @@
             this.txtKMs = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtWeight = new System.Windows.Forms.TextBox();
+            this.cmbFuel = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -152,11 +154,31 @@
             this.txtWeight.Size = new System.Drawing.Size(63, 20);
             this.txtWeight.TabIndex = 4;
             // 
+            // cmbFuel
+            // 
+            this.cmbFuel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFuel.FormattingEnabled = true;
+            this.cmbFuel.Location = new System.Drawing.Point(323, 21);
+            this.cmbFuel.Name = "cmbFuel";
+            this.cmbFuel.Size = new System.Drawing.Size(121, 21);
+            this.cmbFuel.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(251, 24);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Combustível";
+            // 
             // AddVehicle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 202);
+            this.Controls.Add(this.cmbFuel);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtWeight);
             this.Controls.Add(this.label4);
@@ -193,5 +215,7 @@
         private System.Windows.Forms.TextBox txtKMs;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtWeight;
+        private System.Windows.Forms.ComboBox cmbFuel;
+        private System.Windows.Forms.Label label6;
     }
 }
