@@ -8,6 +8,7 @@
 
     abstract class Vehicle
     {
+        public string Fuel { get; set; }
         public string ModelName { get; set; }
         public string Brand { get; set; }
         public int Wheels { get; set; }
@@ -18,7 +19,7 @@
 
         public virtual void showInfo()
         {
-            Console.WriteLine($"Marca: {Brand}, Modelo: {ModelName}, Rodas: {Wheels}");
+            Console.WriteLine($"Combustível: {Fuel} Marca: {Brand}, Modelo: {ModelName}, Rodas: {Wheels}");
         }
 
         public Vehicle()
