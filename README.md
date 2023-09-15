@@ -1,4 +1,4 @@
-# Nexer Techinical Test 2023 
+# Nexer Technical Test 2023
 # Projeto de Gerenciamento de Transporte
 
 Este projeto é um teste técnico da Nexer, e visa o aprimoramento/correção do sistema disponibilizado em: [NEXER-BRA/TechnicalTest2023](https://github.com/NEXER-BRA/TechnicalTest2023), com os seguintes requisitos:
